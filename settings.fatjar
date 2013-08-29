@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Aug 29 13:23:36 CST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=CronExpBuilder.jar
+manifest.mergeall=true
+manifest.mainclass=wjw.cron.ex.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

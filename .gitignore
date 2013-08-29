@@ -1,1 +1,8 @@
-.bin/
+*.class
+
+# Package Files #
+/*.jar
+*.war
+*.ear
+/bin
+/doc-api
