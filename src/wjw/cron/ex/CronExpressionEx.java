@@ -3,14 +3,15 @@ package wjw.cron.ex;
 import java.text.ParseException;
 import java.util.Set;
 import java.util.StringTokenizer;
-import org.quartz.*;
 
 /**
  * 
  * @author Administrator
  */
 public class CronExpressionEx extends CronExpression {
-  public static final Integer ALL_SPEC = new Integer(ALL_SPEC_INT);
+  private static final long serialVersionUID = 1L;
+  
+  public static final Integer ALL_SPEC = Integer.valueOf(ALL_SPEC_INT);
   public static final int NO_SPEC_INT = 98; // '?'
 
   private String secondsExp;

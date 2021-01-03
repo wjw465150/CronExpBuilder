@@ -1,7 +1,6 @@
 package wjw.cron.ex;
 
 import java.text.ParseException;
-import org.quartz.*;
 
 public class MainTest {
   public static void main(String[] args) {
