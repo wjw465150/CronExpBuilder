@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <entry key="description" value="CronExpBuilder" />
+  <entry key="sourcefolders1" value="src" />
+  <node name="designer">
+    <node name="formlayout">
+      <entry key="_javaSettingsEnabled" value="true" />
+    </node>
+    <node name="gridbaglayout">
+      <entry key="_javaSettingsEnabled" value="true" />
+    </node>
+    <node name="grouplayout">
+      <entry key="_settingsEnabled" value="true" />
+    </node>
+    <node name="miglayout">
+      <entry key="_javaSettingsEnabled" value="true" />
+    </node>
+    <node name="tablelayout">
+      <entry key="_settingsEnabled" value="true" />
+    </node>
+  </node>
+  <node name="javacodegenerator">
+    <entry key="_codeStyleSettingsEnabled" value="true" />
+    <entry key="_generalSettingsEnabled" value="true" />
+    <entry key="indentsize" value="2" />
+    <entry key="membervariablethis" value="true" />
+    <entry key="nonnlstags" value="true" />
+    <entry key="tabsize" value="2" />
+    <entry key="variablemodifiers" value="4" />
+  </node>
+</project>
+

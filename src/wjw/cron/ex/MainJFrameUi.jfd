@@ -1,0 +1,1388 @@
+JFDML JFormDesigner: "8.2.0.0.331" Java: "21" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {comp jButton_Make:::p::p, space :p::p, comp jPanel3:::p::p}, par t:l::p {comp jPanel2::l::756:x, comp jTabbedPane1::l:::x}}, space :::x}}"
+			"$verticalGroup": "par l {seq l {comp jTabbedPane1:::::x, space :::p, comp jPanel2:::p:385:p, space :::p, par l {comp jPanel3:::p::p, comp jButton_Make:::p::p}, space :::p}}"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 0
+			"title": "Quartz表达式生成器(wjw465150@gmail.com)"
+			"resizable": false
+			"$sizePolicy": 1
+			"$locationPolicy": 1
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "jTabbedPane1"
+				"border": new javax.swing.border.TitledBorder( new javax.swing.border.EtchedBorder( 1, null, null ), "日期,时间" )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {comp jPanel_BoxSecond::t:p::p, seq {par l {comp jRB_SE_Every::l:p::p, seq l {comp jRB_SE_Loop:::p::p, space :::p, comp label:::p::p, space :::p, comp jSP_SE_From:::p:60:p, space :::p, comp lblSecondStartevery:::p::p, space :::p, comp jSP_SE_Every:::p:60:p, space :p:3:p, comp lblSecondExecute:::p::p}, comp jRB_SE_Assign::l:p::p}, space :0:0:x}}, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp jRB_SE_Every:::p::p, space :::p, par c {comp jRB_SE_Loop::c:p::p, comp label::c:p::p, comp jSP_SE_From::c:p::p, comp lblSecondStartevery::c:p::p, comp jSP_SE_Every::c:p::p, comp lblSecondExecute::c:p::p}, space :::p, comp jRB_SE_Assign:::p::p, space :::p, comp jPanel_BoxSecond:::p::p, space ::27:x}}"
+				} ) {
+					name: "jPanel_Second"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label"
+						"text": "From"
+					} )
+					add( new FormComponent( "javax.swing.JSpinner" ) {
+						name: "jSP_SE_From"
+						"enabled": false
+						"model": new javax.swing.SpinnerNumberModel( 0, 0, 59, 1 )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "lblSecondStartevery"
+						"text": "Second start,Every"
+					} )
+					add( new FormComponent( "javax.swing.JSpinner" ) {
+						name: "jSP_SE_Every"
+						"enabled": false
+						"model": new javax.swing.SpinnerNumberModel( 5, 1, 59, 1 )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "lblSecondExecute"
+						"text": "Second Execute"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_SE_Loop"
+						"$buttonGroup": new FormReference( "buttonGroup0" )
+						"text": "Cycle:"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_SE_Assign"
+						"$buttonGroup": new FormReference( "buttonGroup0" )
+						"text": "Assign:"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {par l {comp jCB_SE_0::l:p::p, comp jCB_SE_15::l:p::p}, space :::p, par l {comp jCB_SE_16::l:p::p, comp jCB_SE_1::l:p::p}, space :::p, par l {comp jCB_SE_17::l:p::p, comp jCB_SE_2::l:p::p}, space :::p, par l {comp jCB_SE_18::l:p::p, comp jCB_SE_3::l:p::p}, space u:::p, par l {comp jCB_SE_4::l:p::p, comp jCB_SE_19::l:p::p}, space :::p, par l {comp jCB_SE_20::l:p::p, comp jCB_SE_5::l:p::p}, space u:::p, par l {comp jCB_SE_6::l:p::p, comp jCB_SE_21::l:p::p}, space u:::p, par l {comp jCB_SE_22::l:p::p, comp jCB_SE_7::l:p::p}, space u:::p, par l {comp jCB_SE_8::l:p::p, comp jCB_SE_23::l:p::p}, space :::p, par l {comp jCB_SE_24::l:p::p, comp jCB_SE_9::l:p::p}, space :::p, par l {comp jCB_SE_25::l:p::p, comp jCB_SE_10::l:p::p}, space u:::p, par l {comp jCB_SE_26::l:p::p, comp jCB_SE_11::l:p::p}, space :::p, par l {comp jCB_SE_27::l:p::p, comp jCB_SE_12::l:p::p}, space u:::p, par l {seq l {comp jCB_SE_13:::p::p, space u:::p, comp jCB_SE_14:::p::p}, seq l {comp jCB_SE_28:::p::p, space u:::p, comp jCB_SE_29:::p::p}}}, seq l {comp jCB_SE_45:::p::p, space :::p, comp jCB_SE_46:::p::p, space :::p, comp jCB_SE_47:::p::p, space :::p, comp jCB_SE_48:::p::p, space u:::p, comp jCB_SE_49:::p::p, space :::p, comp jCB_SE_50:::p::p, space u:::p, comp jCB_SE_51:::p::p, space u:::p, comp jCB_SE_52:::p::p, space u:::p, comp jCB_SE_53:::p::p, space :::p, comp jCB_SE_54:::p::p, space :::p, comp jCB_SE_55:::p::p, space u:::p, comp jCB_SE_56:::p::p, space :::p, comp jCB_SE_57:::p::p, space u:::p, comp jCB_SE_58:::p::p, space u:::p, comp jCB_SE_59:::p::p}, seq l {comp jCB_SE_30:::p::p, space :::p, comp jCB_SE_31:::p::p, space :::p, comp jCB_SE_32:::p::p, space :::p, comp jCB_SE_33:::p::p, space u:::p, comp jCB_SE_34:::p::p, space :::p, comp jCB_SE_35:::p::p, space u:::p, comp jCB_SE_36:::p::p, space u:::p, comp jCB_SE_37:::p::p, space u:::p, comp jCB_SE_38:::p::p, space :::p, comp jCB_SE_39:::p::p, space :::p, comp jCB_SE_40:::p::p, space u:::p, comp jCB_SE_41:::p::p, space :::p, comp jCB_SE_42:::p::p, space u:::p, comp jCB_SE_43:::p::p, space u:::p, comp jCB_SE_44:::p::p}}, space :::x}}"
+						"$verticalGroup": "par l {seq l {space :::p, par b {comp jCB_SE_0::b:p::p, comp jCB_SE_1::b:p::p, comp jCB_SE_2::b:p::p, comp jCB_SE_3::b:p::p, comp jCB_SE_4::b:p::p, comp jCB_SE_5::b:p::p, comp jCB_SE_6::b:p::p, comp jCB_SE_7::b:p::p, comp jCB_SE_8::b:p::p, comp jCB_SE_9::b:p::p, comp jCB_SE_10::b:p::p, comp jCB_SE_11::b:p::p, comp jCB_SE_12::b:p::p, comp jCB_SE_13::b:p::p, comp jCB_SE_14::b:p::p}, space :::p, par b {comp jCB_SE_15::b:p::p, comp jCB_SE_16::b:p::p, comp jCB_SE_17::b:p::p, comp jCB_SE_18::b:p::p, comp jCB_SE_19::b:p::p, comp jCB_SE_20::b:p::p, comp jCB_SE_21::b:p::p, comp jCB_SE_22::b:p::p, comp jCB_SE_23::b:p::p, comp jCB_SE_24::b:p::p, comp jCB_SE_25::b:p::p, comp jCB_SE_26::b:p::p, comp jCB_SE_27::b:p::p, comp jCB_SE_28::b:p::p, comp jCB_SE_29::b:p::p}, space :::p, par b {comp jCB_SE_30::b:p::p, comp jCB_SE_31::b:p::p, comp jCB_SE_32::b:p::p, comp jCB_SE_33::b:p::p, comp jCB_SE_34::b:p::p, comp jCB_SE_35::b:p::p, comp jCB_SE_36::b:p::p, comp jCB_SE_37::b:p::p, comp jCB_SE_38::b:p::p, comp jCB_SE_39::b:p::p, comp jCB_SE_40::b:p::p, comp jCB_SE_41::b:p::p, comp jCB_SE_42::b:p::p, comp jCB_SE_43::b:p::p, comp jCB_SE_44::b:p::p}, space :::p, par b {comp jCB_SE_45::b:p::p, comp jCB_SE_46::b:p::p, comp jCB_SE_47::b:p::p, comp jCB_SE_48::b:p::p, comp jCB_SE_49::b:p::p, comp jCB_SE_50::b:p::p, comp jCB_SE_51::b:p::p, comp jCB_SE_52::b:p::p, comp jCB_SE_53::b:p::p, comp jCB_SE_54::b:p::p, comp jCB_SE_55::b:p::p, comp jCB_SE_56::b:p::p, comp jCB_SE_57::b:p::p, comp jCB_SE_58::b:p::p, comp jCB_SE_59::b:p::p}, space :::x}}"
+					} ) {
+						name: "jPanel_BoxSecond"
+						"border": &EtchedBorder0 new javax.swing.border.EtchedBorder( 1, null, null )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_0"
+							"text": "0"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_1"
+							"text": "1"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_2"
+							"text": "2"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_3"
+							"text": "3"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_4"
+							"text": "4"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_5"
+							"text": "5"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_6"
+							"text": "6"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_7"
+							"text": "7"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_8"
+							"text": "8"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_9"
+							"text": "9"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_10"
+							"text": "10"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_11"
+							"text": "11"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_12"
+							"text": "12"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_13"
+							"text": "13"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_14"
+							"text": "14"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_15"
+							"text": "15"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_16"
+							"text": "16"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_17"
+							"text": "17"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_18"
+							"text": "18"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_19"
+							"text": "19"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_20"
+							"text": "20"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_21"
+							"text": "21"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_22"
+							"text": "22"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_23"
+							"text": "23"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_24"
+							"text": "24"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_25"
+							"text": "25"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_26"
+							"text": "26"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_27"
+							"text": "27"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_28"
+							"text": "28"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_29"
+							"text": "29"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_30"
+							"text": "30"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_31"
+							"text": "31"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_32"
+							"text": "32"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_33"
+							"text": "33"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_34"
+							"text": "34"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_35"
+							"text": "35"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_36"
+							"text": "36"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_37"
+							"text": "37"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_38"
+							"text": "38"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_39"
+							"text": "39"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_40"
+							"text": "40"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_41"
+							"text": "41"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_42"
+							"text": "42"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_43"
+							"text": "43"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_44"
+							"text": "44"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_45"
+							"text": "45"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_46"
+							"text": "46"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_47"
+							"text": "47"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_48"
+							"text": "48"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_49"
+							"text": "49"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_50"
+							"text": "50"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_51"
+							"text": "51"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_52"
+							"text": "52"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_53"
+							"text": "53"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_54"
+							"text": "54"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_55"
+							"text": "55"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_56"
+							"text": "56"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_57"
+							"text": "57"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_58"
+							"text": "58"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_SE_59"
+							"text": "59"
+							"enabled": false
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_SE_Every"
+						"text": "Every Second"
+						"$buttonGroup": new FormReference( "buttonGroup0" )
+						"selected": true
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Second"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {comp jPanel12::t:p::p, seq {par l {comp jRB_MU_Every::l:p::p, seq l {comp jRB_MU_Loop:::p::p, space :::p, comp jLabel9:::p::p, space :::p, comp jSP_MU_From:::p:60:p, space :::p, comp jLabel10:::p::p, space :::p, comp jSP_MU_Every:::p:60:p, space :p:3:p, comp jLabel12:::p::p}, comp jRB_MU_Assign::l:p::p}, space :0:0:x}}, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp jRB_MU_Every:::p::p, space :::p, par c {comp jRB_MU_Loop::c:p::p, comp jLabel9::c:p::p, comp jSP_MU_From::c:p::p, comp jLabel10::c:p::p, comp jSP_MU_Every::c:p::p, comp jLabel12::c:p::p}, space :::p, comp jRB_MU_Assign:::p::p, space :::p, comp jPanel12:::p::p, space ::27:x}}"
+				} ) {
+					name: "jPanel4"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "jLabel9"
+						"text": "From"
+					} )
+					add( new FormComponent( "javax.swing.JSpinner" ) {
+						name: "jSP_MU_From"
+						"enabled": false
+						"model": new javax.swing.SpinnerNumberModel( 0, 0, 59, 1 )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "jLabel10"
+						"text": "Minute start,Every"
+					} )
+					add( new FormComponent( "javax.swing.JSpinner" ) {
+						name: "jSP_MU_Every"
+						"enabled": false
+						"model": new javax.swing.SpinnerNumberModel( 5, 1, 59, 1 )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "jLabel12"
+						"text": "Minute Execute"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_MU_Loop"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+						"text": "Cycle:"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_MU_Assign"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+						"text": "Assign:"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {par l {comp jCB_MU_0::l:p::p, comp jCB_MU_15::l:p::p}, space :::p, par l {comp jCB_MU_16::l:p::p, comp jCB_MU_1::l:p::p}, space :::p, par l {comp jCB_MU_17::l:p::p, comp jCB_MU_2::l:p::p}, space :::p, par l {comp jCB_MU_18::l:p::p, comp jCB_MU_3::l:p::p}, space u:::p, par l {comp jCB_MU_4::l:p::p, comp jCB_MU_19::l:p::p}, space :::p, par l {comp jCB_MU_20::l:p::p, comp jCB_MU_5::l:p::p}, space u:::p, par l {comp jCB_MU_6::l:p::p, comp jCB_MU_21::l:p::p}, space u:::p, par l {comp jCB_MU_22::l:p::p, comp jCB_MU_7::l:p::p}, space u:::p, par l {comp jCB_MU_8::l:p::p, comp jCB_MU_23::l:p::p}, space :::p, par l {comp jCB_MU_24::l:p::p, comp jCB_MU_9::l:p::p}, space :::p, par l {comp jCB_MU_25::l:p::p, comp jCB_MU_10::l:p::p}, space u:::p, par l {comp jCB_MU_26::l:p::p, comp jCB_MU_11::l:p::p}, space :::p, par l {comp jCB_MU_27::l:p::p, comp jCB_MU_12::l:p::p}, space u:::p, par l {seq l {comp jCB_MU_13:::p::p, space u:::p, comp jCB_MU_14:::p::p}, seq l {comp jCB_MU_28:::p::p, space u:::p, comp jCB_MU_29:::p::p}}}, seq l {comp jCB_MU_45:::p::p, space :::p, comp jCB_MU_46:::p::p, space :::p, comp jCB_MU_47:::p::p, space :::p, comp jCB_MU_48:::p::p, space u:::p, comp jCB_MU_49:::p::p, space :::p, comp jCB_MU_50:::p::p, space u:::p, comp jCB_MU_51:::p::p, space u:::p, comp jCB_MU_52:::p::p, space u:::p, comp jCB_MU_53:::p::p, space :::p, comp jCB_MU_54:::p::p, space :::p, comp jCB_MU_55:::p::p, space u:::p, comp jCB_MU_56:::p::p, space :::p, comp jCB_MU_57:::p::p, space u:::p, comp jCB_MU_58:::p::p, space u:::p, comp jCB_MU_59:::p::p}, seq l {comp jCB_MU_30:::p::p, space :::p, comp jCB_MU_31:::p::p, space :::p, comp jCB_MU_32:::p::p, space :::p, comp jCB_MU_33:::p::p, space u:::p, comp jCB_MU_34:::p::p, space :::p, comp jCB_MU_35:::p::p, space u:::p, comp jCB_MU_36:::p::p, space u:::p, comp jCB_MU_37:::p::p, space u:::p, comp jCB_MU_38:::p::p, space :::p, comp jCB_MU_39:::p::p, space :::p, comp jCB_MU_40:::p::p, space u:::p, comp jCB_MU_41:::p::p, space :::p, comp jCB_MU_42:::p::p, space u:::p, comp jCB_MU_43:::p::p, space u:::p, comp jCB_MU_44:::p::p}}, space :::x}}"
+						"$verticalGroup": "par l {seq l {space :::p, par b {comp jCB_MU_0::b:p::p, comp jCB_MU_1::b:p::p, comp jCB_MU_2::b:p::p, comp jCB_MU_3::b:p::p, comp jCB_MU_4::b:p::p, comp jCB_MU_5::b:p::p, comp jCB_MU_6::b:p::p, comp jCB_MU_7::b:p::p, comp jCB_MU_8::b:p::p, comp jCB_MU_9::b:p::p, comp jCB_MU_10::b:p::p, comp jCB_MU_11::b:p::p, comp jCB_MU_12::b:p::p, comp jCB_MU_13::b:p::p, comp jCB_MU_14::b:p::p}, space :::p, par b {comp jCB_MU_15::b:p::p, comp jCB_MU_16::b:p::p, comp jCB_MU_17::b:p::p, comp jCB_MU_18::b:p::p, comp jCB_MU_19::b:p::p, comp jCB_MU_20::b:p::p, comp jCB_MU_21::b:p::p, comp jCB_MU_22::b:p::p, comp jCB_MU_23::b:p::p, comp jCB_MU_24::b:p::p, comp jCB_MU_25::b:p::p, comp jCB_MU_26::b:p::p, comp jCB_MU_27::b:p::p, comp jCB_MU_28::b:p::p, comp jCB_MU_29::b:p::p}, space :::p, par b {comp jCB_MU_30::b:p::p, comp jCB_MU_31::b:p::p, comp jCB_MU_32::b:p::p, comp jCB_MU_33::b:p::p, comp jCB_MU_34::b:p::p, comp jCB_MU_35::b:p::p, comp jCB_MU_36::b:p::p, comp jCB_MU_37::b:p::p, comp jCB_MU_38::b:p::p, comp jCB_MU_39::b:p::p, comp jCB_MU_40::b:p::p, comp jCB_MU_41::b:p::p, comp jCB_MU_42::b:p::p, comp jCB_MU_43::b:p::p, comp jCB_MU_44::b:p::p}, space :::p, par b {comp jCB_MU_45::b:p::p, comp jCB_MU_46::b:p::p, comp jCB_MU_47::b:p::p, comp jCB_MU_48::b:p::p, comp jCB_MU_49::b:p::p, comp jCB_MU_50::b:p::p, comp jCB_MU_51::b:p::p, comp jCB_MU_52::b:p::p, comp jCB_MU_53::b:p::p, comp jCB_MU_54::b:p::p, comp jCB_MU_55::b:p::p, comp jCB_MU_56::b:p::p, comp jCB_MU_57::b:p::p, comp jCB_MU_58::b:p::p, comp jCB_MU_59::b:p::p}, space :::x}}"
+					} ) {
+						name: "jPanel12"
+						"border": #EtchedBorder0
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_0"
+							"text": "0"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_1"
+							"text": "1"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_2"
+							"text": "2"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_3"
+							"text": "3"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_4"
+							"text": "4"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_5"
+							"text": "5"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_6"
+							"text": "6"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_7"
+							"text": "7"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_8"
+							"text": "8"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_9"
+							"text": "9"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_10"
+							"text": "10"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_11"
+							"text": "11"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_12"
+							"text": "12"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_13"
+							"text": "13"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_14"
+							"text": "14"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_15"
+							"text": "15"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_16"
+							"text": "16"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_17"
+							"text": "17"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_18"
+							"text": "18"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_19"
+							"text": "19"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_20"
+							"text": "20"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_21"
+							"text": "21"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_22"
+							"text": "22"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_23"
+							"text": "23"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_24"
+							"text": "24"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_25"
+							"text": "25"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_26"
+							"text": "26"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_27"
+							"text": "27"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_28"
+							"text": "28"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_29"
+							"text": "29"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_30"
+							"text": "30"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_31"
+							"text": "31"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_32"
+							"text": "32"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_33"
+							"text": "33"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_34"
+							"text": "34"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_35"
+							"text": "35"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_36"
+							"text": "36"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_37"
+							"text": "37"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_38"
+							"text": "38"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_39"
+							"text": "39"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_40"
+							"text": "40"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_41"
+							"text": "41"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_42"
+							"text": "42"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_43"
+							"text": "43"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_44"
+							"text": "44"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_45"
+							"text": "45"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_46"
+							"text": "46"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_47"
+							"text": "47"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_48"
+							"text": "48"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_49"
+							"text": "49"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_50"
+							"text": "50"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_51"
+							"text": "51"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_52"
+							"text": "52"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_53"
+							"text": "53"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_54"
+							"text": "54"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_55"
+							"text": "55"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_56"
+							"text": "56"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_57"
+							"text": "57"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_58"
+							"text": "58"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MU_59"
+							"text": "59"
+							"enabled": false
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_MU_Every"
+						"text": "Per Minute"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+						"selected": true
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Minute"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {space :21:21:21, comp jPanel9:::p::p}, comp jRB_HH_Assign::l:p::p, comp jRB_HH_Every::l:p::p}, space ::43:x}}"
+					"$verticalGroup": "par l {seq l {space :p::p, comp jRB_HH_Every:::p::p, space u:::p, comp jRB_HH_Assign:::p::p, space :::p, comp jPanel9:::p::p, space ::105:x}}"
+				} ) {
+					name: "jPanel_Hour"
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_HH_Every"
+						"$buttonGroup": new FormReference( "buttonGroup2" )
+						"selected": true
+						"text": "Per Hour"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_HH_Assign"
+						"$buttonGroup": new FormReference( "buttonGroup2" )
+						"text": "Assign:"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq l {space :p:2:p, par l {comp jLabel16:::p::p, comp jLabel17:::p::p}, space :::p, par l {comp jCB_HH_12::l:p::p, comp jCB_HH_0::l:p::p}, space :::p, par l {comp jCB_HH_1::l:p::p, comp jCB_HH_13::l:p::p}, space :p::p, par l {seq l {comp jCB_HH_14:::p::p, space :::p, comp jCB_HH_15:::p::p}, seq l {comp jCB_HH_2:::p::p, space :p:8:p, comp jCB_HH_3:::p::p}}, space u:::p, par l {comp jCB_HH_4::l:p::p, comp jCB_HH_16::l:p::p}, space :::p, par l {comp jCB_HH_5::l:p::p, comp jCB_HH_17::l:p::p}, space :::p, par l {comp jCB_HH_6::l:p::p, comp jCB_HH_18::l:p::p}, space :::p, par l {comp jCB_HH_7::l:p::p, comp jCB_HH_19::l:p::p}, space :::p, par l {comp jCB_HH_8::l:p::p, comp jCB_HH_20::l:p::p}, space u:::p, par l {comp jCB_HH_9::l:p::p, comp jCB_HH_21::l:p::p}, space u:::p, par l {comp jCB_HH_10::t:p::p, comp jCB_HH_22::l:p::p}, space u:::p, par l {comp jCB_HH_11::l:p::p, comp jCB_HH_23::l:p::p}, space :::x}}"
+						"$verticalGroup": "par l {seq l {space :::p, par t {seq t {par b {comp jCB_HH_11::b:p::p, comp jCB_HH_10::b:p::p, comp jCB_HH_9::b:p::p}, space u:::p, par b {comp jCB_HH_21::b:p::p, comp jCB_HH_22::b:p::p, comp jCB_HH_23::b:p::p}}, seq t {par b {comp jCB_HH_0::b:p::p, comp jCB_HH_8::b:p::p, comp jCB_HH_7::b:p::p, comp jCB_HH_6::b:p::p, comp jCB_HH_5::b:p::p, comp jCB_HH_4::b:p::p, comp jCB_HH_3::b:p::p, comp jCB_HH_2::b:p::p, comp jCB_HH_1::b:p::p, comp jLabel16::b:p::p}, space u:::p, par b {comp jCB_HH_12::b:p::p, comp jCB_HH_13::b:p::p, comp jCB_HH_14::b:p::p, comp jCB_HH_15::b:p::p, comp jCB_HH_16::b:p::p, comp jCB_HH_17::b:p::p, comp jCB_HH_18::b:p::p, comp jCB_HH_19::b:p::p, comp jCB_HH_20::b:p::p, comp jLabel17::b:p::p}}}, space :::x}}"
+					} ) {
+						name: "jPanel9"
+						"border": new javax.swing.border.EtchedBorder( 1, null, null )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_0"
+							"text": "0  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_1"
+							"text": "1  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_2"
+							"text": "2  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_3"
+							"text": "3  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_4"
+							"text": "4  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_5"
+							"text": "5  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_6"
+							"text": "6  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_7"
+							"text": "7  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_8"
+							"text": "8  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_9"
+							"text": "9  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_10"
+							"text": "10  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_11"
+							"text": "11  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_12"
+							"text": "12  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_13"
+							"text": "13  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_14"
+							"text": "14  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_15"
+							"text": "15  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_16"
+							"text": "16  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_17"
+							"text": "17  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_18"
+							"text": "18  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_19"
+							"text": "19  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_20"
+							"text": "20  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_21"
+							"text": "21  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_22"
+							"text": "22  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_HH_23"
+							"text": "23  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "jLabel16"
+							"text": "AM:"
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "jLabel17"
+							"text": "PM:"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Hour"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {par l {seq {space :::p, par l {comp jRB_DD_Assign::l:p::p, comp jRB_DD_Every::l:p::p}}, seq l {space :p:29:p, comp jPanel10:::p::p}}, space :::x}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp jRB_DD_Every:::p::p, space u:::p, comp jRB_DD_Assign:::p::p, space :::p, comp jPanel10:::p::p, space ::75:x}}"
+				} ) {
+					name: "jPanel_Day"
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_DD_Every"
+						"$buttonGroup": new FormReference( "buttonGroup3" )
+						"selected": true
+						"text": "Per Day"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_DD_Assign"
+						"$buttonGroup": new FormReference( "buttonGroup3" )
+						"text": "Assign:"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq {par l {seq {space :::p, par l {seq l {comp jCB_DD_1:::p::p, space :p:7:p, comp jCB_DD_2:::p::p}, seq l {comp jCB_DD_16:::p::p, space :::p, comp jCB_DD_17:::p::p}}, space :::p, par l {comp jCB_DD_3::l:p::p, comp jCB_DD_18::l:p::p}, space :p::p, par l {comp jCB_DD_19::l:p::p, comp jCB_DD_4::l:p::p}, space u:::p, par l {seq l {comp jCB_DD_5:::p::p, space :p:7:p, comp jCB_DD_6:::p::p, space :p:7:p, comp jCB_DD_7:::p::p}, seq l {comp jCB_DD_20:::p::p, space :::p, comp jCB_DD_21:::p::p, space :::p, comp jCB_DD_22:::p::p}}, space :::p, par l {comp jCB_DD_23::l:p::p, comp jCB_DD_8::l:p::p}, space :::p, par l {comp jCB_DD_9::l:p::p, seq l {comp jCB_DD_24:::p::p, space u:::p, comp jCB_DD_25:::p::p}}, space :::p, par l {comp jCB_DD_26::l:p::p, comp jCB_DD_11::l:p::p}, space :::p, par l {comp jCB_DD_12::l:p::p, comp jCB_DD_27::l:p::p}, space :::p, par l {comp jCB_DD_28::l:p::p, comp jCB_DD_13::l:p::p}, space :::p, par l {seq l {comp jCB_DD_14:::p::p, space u:::p, comp jCB_DD_15:::p::p}, seq l {comp jCB_DD_29:::p::p, space u:::p, comp jCB_DD_30:::p::p}}}, seq l {space :367:367:367, comp jCB_DD_10:::p::p}, seq l {space :::p, comp jCB_DD_31:::p::p}}, space :::x}}"
+						"$verticalGroup": "par l {seq l {space :::p, par l {comp jCB_DD_1::l:p::p, comp jCB_DD_2::l:p::p, comp jCB_DD_3::l:p::p, comp jCB_DD_4::l:p::p, comp jCB_DD_5::l:p::p, comp jCB_DD_6::l:p::p, comp jCB_DD_7::l:p::p, comp jCB_DD_8::l:p::p, comp jCB_DD_9::l:p::p, comp jCB_DD_10::l:p::p, comp jCB_DD_11::l:p::p, comp jCB_DD_12::l:p::p, comp jCB_DD_13::l:p::p, comp jCB_DD_14::l:p::p, comp jCB_DD_15::l:p::p}, space :p::p, par t {comp jCB_DD_20::t:p::p, par b:t {comp jCB_DD_16::b:p::p, comp jCB_DD_17::b:p::p, comp jCB_DD_18::b:p::p, comp jCB_DD_19::b:p::p}, comp jCB_DD_30::t:p::p, par b:t {comp jCB_DD_21::b:p::p, comp jCB_DD_22::b:p::p, comp jCB_DD_23::b:p::p, comp jCB_DD_24::b:p::p, comp jCB_DD_25::b:p::p, comp jCB_DD_26::b:p::p, comp jCB_DD_27::b:p::p, comp jCB_DD_28::b:p::p, comp jCB_DD_29::b:p::p}}, space u:::p, comp jCB_DD_31:::p::p, space :::x}}"
+					} ) {
+						name: "jPanel10"
+						"border": new javax.swing.border.EtchedBorder( 1, null, null )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_1"
+							"text": "1"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_2"
+							"text": "2"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_3"
+							"text": "3"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_4"
+							"text": "4"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_5"
+							"text": "5"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_6"
+							"text": "6"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_7"
+							"text": "7"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_8"
+							"text": "8"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_9"
+							"text": "9"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_10"
+							"text": "10"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_11"
+							"text": "11"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_12"
+							"text": "12"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_13"
+							"text": "13"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_14"
+							"text": "14"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_15"
+							"text": "15"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_16"
+							"text": "16"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_17"
+							"text": "17"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_18"
+							"text": "18"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_19"
+							"text": "19"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_20"
+							"text": "20"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_21"
+							"text": "21"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_22"
+							"text": "22"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_23"
+							"text": "23"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_24"
+							"text": "24"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_25"
+							"text": "25"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_26"
+							"text": "26"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_27"
+							"text": "27"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_28"
+							"text": "28"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_29"
+							"text": "29"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_30"
+							"text": "30"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_DD_31"
+							"text": "31"
+							"enabled": false
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Day"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {space :21:21:21, comp jPanel11:::p::p}, comp jRB_MM_Assign::l:p::p, comp jRB_MM_Every::l:p::p}, space ::398:x}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp jRB_MM_Every:::p::p, space u:::p, comp jRB_MM_Assign:::p::p, space :::p, comp jPanel11:::p::p, space ::111:x}}"
+				} ) {
+					name: "jPanel_Month"
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_MM_Every"
+						"$buttonGroup": new FormReference( "buttonGroup4" )
+						"selected": true
+						"text": "Per Month"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "jRB_MM_Assign"
+						"$buttonGroup": new FormReference( "buttonGroup4" )
+						"text": "Assign:"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq {space :::p, par l {seq l {comp jCB_MM_1:::p::p, space :p:7:p, comp jCB_MM_2:::p::p}, seq l {comp jCB_MM_7:::p::p, space :p:7:p, comp jCB_MM_8:::p::p}}, space :p:11:p, par l {comp jCB_MM_3::t:p::p, comp jCB_MM_9::t:p::p}, par l {seq l {space :p:8:p, comp jCB_MM_4:::p::p}, seq l {space :p:7:p, comp jCB_MM_10:::p::p}}, space u:::p, par l {comp jCB_MM_5::l:p::p, comp jCB_MM_11::l:p::p}, space u:::p, par l {comp jCB_MM_12::l:p::p, comp jCB_MM_6::l:p::p}, space :::x}}"
+						"$verticalGroup": "par l {seq l {space :::p, par b {comp jCB_MM_1::b:p::p, comp jCB_MM_6::b:p::p, comp jCB_MM_5::b:p::p, comp jCB_MM_4::b:p::p, comp jCB_MM_3::b:p::p, comp jCB_MM_2::b:p::p}, space :::p, par t {par b:t {comp jCB_MM_12::b:p::p, comp jCB_MM_11::b:p::p, comp jCB_MM_10::b:p::p}, par b:t {comp jCB_MM_8::b:p::p, comp jCB_MM_7::b:p::p, comp jCB_MM_9::b:p::p}}, space :::x}}"
+					} ) {
+						name: "jPanel11"
+						"border": new javax.swing.border.EtchedBorder( 1, null, null )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_1"
+							"text": "1  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_2"
+							"text": "2  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_3"
+							"text": "3  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_4"
+							"text": "4  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_5"
+							"text": "5  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_6"
+							"text": "6  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_7"
+							"text": "7  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_8"
+							"text": "8  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_9"
+							"text": "9  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_10"
+							"text": "10  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_11"
+							"text": "11  "
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_MM_12"
+							"text": "12  "
+							"enabled": false
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Month"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, comp jCB_WK_Use:::p::p, space ::650:x}};par l {seq l {space :::p, comp jPanel1_WK:::p::p, space ::101:x}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp jCB_WK_Use:::p::p, space ::223:x}};par l {seq l {space :p:39:p, comp jPanel1_WK:::p::p, space ::102:x}}"
+				} ) {
+					name: "jPanel_Week"
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "jCB_WK_Use"
+						"text": "Use Week"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {space :21:21:21, comp jCB_WK_1:::p::p, space :p:11:p, comp jCB_WK_2:::p::p, space :p:8:p, comp jCB_WK_3:::p::p, space u:::p, comp jCB_WK_4:::p::p, space :p:7:p, comp jCB_WK_5:::p::p, space :p:7:p, comp jCB_WK_6:::p::p, space :p:7:p, comp jCB_WK_7:::p::p}, comp jRB_WK_Every::l:p::p, comp jRB_WK_Assign::l:p::p}, space ::35:x}}"
+						"$verticalGroup": "par l {seq l {space :::p, comp jRB_WK_Every:::p::p, space u:::p, comp jRB_WK_Assign:::p::p, space u:::p, par b {comp jCB_WK_7::b:p::p, comp jCB_WK_6::b:p::p, comp jCB_WK_5::b:p::p, comp jCB_WK_4::b:p::p, comp jCB_WK_3::b:p::p, comp jCB_WK_2::b:p::p, comp jCB_WK_1::b:p::p}, space :::x}}"
+					} ) {
+						name: "jPanel1_WK"
+						"border": new javax.swing.border.EtchedBorder( 1, null, null )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_1"
+							"text": "Sunday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_2"
+							"text": "Monday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_3"
+							"text": "Tuesday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_4"
+							"text": "Wednesday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_5"
+							"text": "Thursday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_6"
+							"text": "Friday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JCheckBox" ) {
+							name: "jCB_WK_7"
+							"text": "Saturday"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "jRB_WK_Every"
+							"$buttonGroup": new FormReference( "buttonGroup5" )
+							"selected": true
+							"text": "Per Week"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "jRB_WK_Assign"
+							"$buttonGroup": new FormReference( "buttonGroup5" )
+							"text": "Assign:"
+							"enabled": false
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Week"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :::p, par l {seq l {par l {comp jLabel8::t:p::p, comp jLabel1::t:p::p}, space s:::p, par l:::p {seq {par l {comp jLabel2:::p::p, comp jTF_Cron_Second:::p:80:p}, space :::p, par l {comp jTF_Cron_Minute::l:p:80:p, comp jLabel3::l:p::p}, space s:::p, par l {comp jTF_Cron_Hour::l:p:80:p, comp jLabel4::l:p::p}, space s:::p, par l {comp jTF_Cron_Day::l:p:80:p, comp jLabel5::l:p::p}, space s:::p, par l {comp jTF_Cron_Month::l:p:80:p, comp jLabel6::l:p::p}}, comp jTF_Cron_Exp:::::x:1}, space s:::p, par l {seq {par l {comp jLabel7::l:p::p, comp jTF_Cron_Week::l:p:80:p}, space :0:0:x}, comp jButton_Parse:::::x}}, comp jPanel13:::::x}, space :::p}}"
+				"$verticalGroup": "par l {seq {par b {comp jLabel2::b:p::p, comp jLabel3::b:p::p, comp jLabel4::b:p::p, comp jLabel5::b:p::p, comp jLabel6::b:p::p, comp jLabel7::b:p::p}, space :::p, par b {comp jTF_Cron_Second::b:p::p, comp jTF_Cron_Minute::b:p::p, comp jTF_Cron_Hour::b:p::p, comp jTF_Cron_Day::b:p::p, comp jTF_Cron_Month::b:p::p, comp jTF_Cron_Week::b:p::p, comp jLabel1::b:p::p}, par l {seq {space :p:21:p, comp jLabel8:::p::p}, seq l {space s:::p, par b {comp jTF_Cron_Exp::b:p::p, comp jButton_Parse::b:p::p}}}, space :::p, comp jPanel13:::::x}}"
+			} ) {
+				name: "jPanel2"
+				"border": new javax.swing.border.TitledBorder( new javax.swing.border.EtchedBorder( 1, null, null ), "Expression" )
+				"preferredSize": new java.awt.Dimension( 661, 100 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel1"
+					"text": "Field:"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel2"
+					"text": "Second"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel3"
+					"text": "Minute"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel4"
+					"text": "Hour"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel5"
+					"text": "Day"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel6"
+					"text": "Month"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel7"
+					"text": "Week"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel8"
+					"text": "Cron Expression:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Second"
+					"background": sfield java.awt.Color orange
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Minute"
+					"background": sfield java.awt.Color orange
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Hour"
+					"background": sfield java.awt.Color orange
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Day"
+					"background": sfield java.awt.Color orange
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Month"
+					"background": sfield java.awt.Color orange
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Week"
+					"background": sfield java.awt.Color orange
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTF_Cron_Exp"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton_Parse"
+					"text": "Resolve To UI"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {comp jLabel14::l:p::p, comp jLabel13::l:p::p}, space u:::p, par l {comp jTF_Schedule_Start::l:::x, comp jScrollPane1::l:::x}, space :::p}}"
+					"$verticalGroup": "par l {seq l {par b {comp jLabel13::b:p::p, comp jTF_Schedule_Start::b:p::p}, space :p::p, par l {seq {comp jLabel14:::p::p, space :::x}, comp jScrollPane1::::219:x}}}"
+				} ) {
+					name: "jPanel13"
+					"border": new javax.swing.border.TitledBorder( new javax.swing.border.EtchedBorder( 1, null, null ), "Plan Execute Time" )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "jLabel13"
+						"text": "Start time:"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "jTF_Schedule_Start"
+						"editable": false
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "jLabel14"
+						"text": "Execute Time:"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "jScrollPane1"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "jTA_Schedule_Next"
+							"background": new com.jformdesigner.model.SwingColor( "CheckBox.background" )
+							"columns": 20
+							"editable": false
+							"rows": 5
+						} )
+					} )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :::p, comp jButton_Copy:::p::p, space ::299:x, comp jButton_Exit:::p:97:p, space :p:248:p}}"
+				"$verticalGroup": "par l {par b:l {comp jButton_Copy::b:p::p, comp jButton_Exit::b:p::p}}"
+			} ) {
+				name: "jPanel3"
+				"alignmentX": 0.0f
+				"alignmentY": 0.0f
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton_Copy"
+					"text": "Copy Cron Expression"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton_Exit"
+					"text": "Quit"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton_Make"
+				"text": "Generate Cron Expression"
+				"alignmentY": 0.0f
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 770, 765 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup0"
+			auxiliary() {
+				"JavaCodeGenerator.variableLocal": false
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 981 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+			auxiliary() {
+				"JavaCodeGenerator.variableLocal": false
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 706 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup2"
+			auxiliary() {
+				"JavaCodeGenerator.variableLocal": false
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 761 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup3"
+			auxiliary() {
+				"JavaCodeGenerator.variableLocal": false
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 816 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup4"
+			auxiliary() {
+				"JavaCodeGenerator.variableLocal": false
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 871 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup5"
+			auxiliary() {
+				"JavaCodeGenerator.variableLocal": false
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 926 )
+		} )
+	}
+}
